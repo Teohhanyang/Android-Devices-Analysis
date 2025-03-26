@@ -1,3 +1,6 @@
+# Key Indicators of Customer Satisfaction for Android Devices
+
+<b> The data </b>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -50,53 +53,14 @@
       <td>20,062 Reviews</td>
       <td>Sunrise Design</td>
     </tr>
-    <tr>
-      <td>5000 mAh Battery</td>
-      <td>12MP + 8MP + 2MP + 2MP | 8MP Front Camera</td>
-      <td>16.56 cm (6.52 inch) HD+ Display</td>
-      <td>4 GB RAM | 128 GB ROM</td>
-      <td>Realme 5i (Forest Green, 128 GB)</td>
-      <td>11999</td>
-      <td>Qualcomm Snapdragon 665 (2 GHz) Processor</td>
-      <td>4.5</td>
-      <td>20,062 Reviews</td>
-      <td>Sunrise Design</td>
-    </tr>
-    <tr>
-      <td>4000 mAh Battery</td>
-      <td>13MP + 2MP | 5MP Front Camera</td>
-      <td>15.49 cm (6.1 inch) HD+ Display</td>
-      <td>3 GB RAM | 32 GB ROM | Expandable Upto 256 GB</td>
-      <td>Realme C2 (Diamond Blue, 32 GB)</td>
-      <td>7499</td>
-      <td>MediaTek P22 Octa Core 2.0 GHz Processor</td>
-      <td>4.4</td>
-      <td>10,091 Reviews</td>
-      <td>Dual Nano SIM slots and Memory Card Slot</td>
-    </tr>
-    <tr>
-      <td>4000 mAh Battery</td>
-      <td>13MP + 2MP | 5MP Front Camera</td>
-      <td>15.49 cm (6.1 inch) HD+ Display</td>
-      <td>3 GB RAM | 32 GB ROM | Expandable Upto 256 GB</td>
-      <td>Realme C2 (Diamond Black, 32 GB)</td>
-      <td>7499</td>
-      <td>MediaTek P22 Octa Core 2.0 GHz Processor</td>
-      <td>4.4</td>
-      <td>10,091 Reviews</td>
-      <td>Dual Nano SIM slots and Memory Card Slot</td>
-    </tr>
-    <tr>
-      <td>4000 mAh Battery</td>
-      <td>13MP + 2MP | 5MP Front Camera</td>
-      <td>15.49 cm (6.1 inch) HD+ Display</td>
-      <td>2 GB RAM | 32 GB ROM | Expandable Upto 256 GB</td>
-      <td>Realme C2 (Diamond Black, 32 GB)</td>
-      <td>6999</td>
-      <td>MediaTek P22 Octa Core 2.0 GHz Processor</td>
-      <td>4.4</td>
-      <td>67,674 Reviews</td>
-      <td>Dual Nano SIM slots and Memory Card Slot</td>
-    </tr>
   </tbody>
 </table>
+
+This dataset provides insights into how various factors, including price and specifications, influence customer satisfaction and sales performance.
+- The dataset only includes products listed on Flipkart and may not represent the entire Android market
+- Before analysis, the dataset underwent wrangling to remove inconsistencies and to fine tune the information contained in each column
+- Since the dataset lacks a direct "customer satisfaction" variable, ratings conditioned on a significant number of reviews was chosen as a proxy metric
+- Justification for the chosen metric through theoretical knowledge and data evidence is provided
+
+You can view the Jupyter Notebook here:
+https://teohhanyang.github.io/Mortality-and-Pollution-Analysis/Mortality-and-Pollution-Analysis.html 
