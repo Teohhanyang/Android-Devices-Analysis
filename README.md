@@ -56,11 +56,11 @@
   </tbody>
 </table>
 
-This dataset provides insights into how various factors, including price and specifications, influence customer satisfaction and sales performance.
+The dataset consists of the <b>market performance metrics</b> (price, rating, and reviews) and various <b>device specifications</b> (battery, camera, display etc) of 984 android devices sold on the e-commerce website Flipkart. This analysis provides insights into how various factors influence customer satisfaction.
 - The dataset only includes products listed on Flipkart and may not represent the entire Android market
 - Before analysis, the dataset underwent wrangling to remove inconsistencies and to fine tune the information contained in each column
 - Since the dataset lacks a direct "customer satisfaction" variable, ratings conditioned on a significant number of reviews was chosen as a proxy metric
 - Justification for the chosen metric through theoretical knowledge and data evidence is provided
 
 You can view the Jupyter Notebook here:
-https://teohhanyang.github.io/Mortality-and-Pollution-Analysis/Mortality-and-Pollution-Analysis.html 
+https://github.com/Teohhanyang/Android-Devices-Analysis/blob/main/Key%20Indicators%20of%20Customer%20Satisfaction%20for%20Adroid%20Devices.ipynb 
